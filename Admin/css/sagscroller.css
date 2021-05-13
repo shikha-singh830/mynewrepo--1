@@ -1,0 +1,35 @@
+/*default CSS for SAG scroller*/
+
+.sagscroller{
+width: 330px;  /*default width of scroller*/
+height:240px;
+overflow:hidden;
+position:relative;
+border:0px solid black;
+border-radius: 0px; /*css3 round corners*/
+-moz-border-radius: 0px; /*css3 round corners*/
+-webkit-border-radius: 0px; /*css3 round corners*/
+}
+
+.sagscroller a{font-weight: normal;}
+
+.sagscroller ul{
+position:absolute;
+margin:0;
+padding:0;
+background:white;
+list-style:none;
+width: 100%;
+}
+
+.sagscroller ul li{
+display:block;
+}
+
+
+/* #SAG scroller demo #1 */
+
+div#mysagscroller2{width: 100%;  /*width of scroller*/height: 345px;}
+div#mysagscroller2{width: 100%;  /*width of scroller*/height: 110px;}
+
+
